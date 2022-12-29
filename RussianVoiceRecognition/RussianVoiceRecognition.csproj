@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Nullable>warnings</Nullable>
+		<TargetFramework>net6.0</TargetFramework>
+		<Title>RussianVoiceRecognition</Title>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>alexxcux</Authors>
+		<Company />
+		<Description>Простая библиотека для распознавания русской речи из .ogg или .wav файлов.</Description>
+		<PackageProjectUrl>https://github.com/AlexC-ux/RussianVoiceRecognition</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/AlexC-ux/RussianVoiceRecognition</RepositoryUrl>
+		<PackageTags>C#;voice recognition; russian; ogg; ogg russian voice recognition</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Vosk" Version="0.3.38" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<Content Include="vosk-model\**">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Update="Properties\ffmpeg.exe">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Remove="C:\Users\eunv2\.nuget\packages\vosk\0.3.38\build\lib\win-x64\libgcc_s_seh-1.dll" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <Compile Update="Properties\Resources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Resources.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>PublicResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>
