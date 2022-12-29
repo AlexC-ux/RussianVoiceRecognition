@@ -7,6 +7,8 @@ All you have to do is run the `git clone https://github.com/AlexC-ux/RussianVoic
 or `git lfs clone https://github.com/AlexC-ux/RussianVoiceRecognition.git`
 
 Next, you can use the library as shown in the example below.
+
+**If the library was able to solve your problem, put a star**
 ## Example
 ### Code
 ```
