@@ -59,7 +59,7 @@ namespace RussianVoiceRecognition
 
         }
 
-        private static async void StartVoiceRecognition()
+        private static void StartVoiceRecognition()
         {
             while (VoiceRecognitionObjects.Count > 0)
             {
