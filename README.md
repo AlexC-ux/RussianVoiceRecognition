@@ -1,4 +1,12 @@
 # RussianVoiceRecognition
+## Overview
+This library is easy to use. 
+All you have to do is run the `git clone https://github.com/AlexC-ux/RussianVoiceRecognition.git` command 
+(you need the lfs) 
+
+or `git lfs clone https://github.com/AlexC-ux/RussianVoiceRecognition.git`
+
+Next, you can use the library as shown in the example below.
 ## Example
 ### Code
 ```
