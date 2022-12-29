@@ -11,6 +11,7 @@
 		<PackageProjectUrl>https://github.com/AlexC-ux/RussianVoiceRecognition</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/AlexC-ux/RussianVoiceRecognition</RepositoryUrl>
 		<PackageTags>C#;voice recognition; russian; ogg; ogg russian voice recognition</PackageTags>
+		<Copyright>MIT</Copyright>
 	</PropertyGroup>
 
 	<ItemGroup>
