@@ -12,6 +12,7 @@
 		<RepositoryUrl>https://github.com/AlexC-ux/RussianVoiceRecognition</RepositoryUrl>
 		<PackageTags>C#;voice recognition; russian; ogg; ogg russian voice recognition</PackageTags>
 		<Copyright>MIT</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -35,6 +36,14 @@
 
 	<ItemGroup>
 	  <None Remove="C:\Users\eunv2\.nuget\packages\vosk\0.3.38\build\lib\win-x64\libgcc_s_seh-1.dll" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 
